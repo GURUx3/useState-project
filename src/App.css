@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: max-content;
+  border: solid;
+}
+
+.container {
+  display: flex;
+  padding: 30px;
+  width: 300px;
+  flex-direction: column;
+}
+
+button {
+  background-color: black;
+  border: none;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+  font-weight: 700;
+}
